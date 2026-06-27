@@ -1,0 +1,4 @@
+structure,stride,prefixes,nodes,mem_kb,mlookups_per_sec
+patricia,1,100000,183437,6513.7,4.117
+multibit,4,100000,129693,49648.1,9.109
+multibit,8,100000,50841,305443.2,16.131

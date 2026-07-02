@@ -1,17 +1,4 @@
-/* test_concurrent.c - the data-plane concurrency test (ThreadSanitizer target).
- *
- * Phase A (correctness under concurrency): a modest table is read by N reader
- * threads (lock-free, RCU) while one writer thread churns a disjoint volatile
- * set. The writer mirrors its ops into a brute-force oracle (single-writer, so
- * the oracle is race-free); after the threads join we sweep many addresses and
- * require the concurrently-mutated trie to match the oracle exactly.
- *
- * Phase B (test of fire / scale): a 10^5-prefix table sustains 8 reader threads
- * plus a writer inserting/removing routes for a fixed wall-clock interval. This
- * is the run that must be race-free under TSan and leak-free under ASan.
- *
- * Usage: test_concurrent [n0] [readers] [churn_ops] [scale_n0] [scale_ms]
- */
+
 #ifndef _POSIX_C_SOURCE
 #define _POSIX_C_SOURCE 200809L   /* clock_gettime, nanosleep */
 #endif

@@ -1,6 +1,6 @@
 
 #ifndef _POSIX_C_SOURCE
-#define _POSIX_C_SOURCE 200809L   /* clock_gettime, nanosleep */
+#define _POSIX_C_SOURCE 200809L   
 #endif
 #include "router.h"
 #include "prefixgen.h"

@@ -60,6 +60,11 @@ relatório, medidos em Linux):
     com leitores offline).
 - _Registrar aqui, a cada sessão, o prompt usado, o que a IA errou e o que a
   equipe corrigiu._
+  1.Ótimo então! Esse é o meu trabalho de ED, o pdf com a documentação sobre o trabalho está aí, o meu é o tema 6. Agora vamos aos pontos, não sei absolutamente nada de programação e nme de SO, por isos escolhi esse tema, achei que seria um pouco mais "fácil"(recomendação do chatgpt), enfim, joguei no claude e eles deu esses outros arquivos aí também. Porém, eu não sei sobre o que é o trabalho, não entendi, não sei o que é para fazer e nme como fazer e muito menos o que posso aproveitar disso que já está aí no arquivo. Preciso que de forma didática me auxilie em todas essas questões, por favor.
+  2.* Explicar a Trie de Patricia de forma visual e com exemplos reais de endereços IP
+* Explicar o RCU com analogia simples de como funciona sem travar leitores
+* Te guiar para rodar o projeto no seu computador passo a passo
+* Preparar perguntas de defesa com as respostas que você precisaria saber  AGORA ME EXPLIQUE ESSES PONTOS QUE VOCÊ CITOU, POR FAVOR. COMO SÓ IREI RODAR AMANHÃ, VAMOS COMEÇAR A ESTUDAR HOJE
 
 ## Pendências
 
